@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h2>Hi! Tea lover?</h2>
+        <nav>
+          <ul>
+            <li><a href="indexweb.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="project.html">Tea project</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="two-column">
+          <div class="project-text">
+            <h1>Javna Tea</h1>
+            <p>
+            Javna tea it a project that serves as my expression of love to herbal tea. It started in 2020 when i was spending a lot of times walking in the mountains and picking up herbs. I decided that I want to share my tea with others.
+            </p>
+          </div>
+          <img id="tea1" class="tea" src="tea1.jpeg" alt="tea1">
+        </div>
+        <div class="image-grid">
+          <img class="tea" src="tea2.jpg" alt="tea2">
+          <img class="tea" src="tea3.jpg" alt="tea3">
+          <img class="tea" src="tea4.jpg" alt="tea4">
+          <img class="tea" src="tea5.jpg" alt="tea5">
+          <img class="tea" src="tea6.jpeg" alt="tea6">
+          <img class="tea" src="tea7.jpg" alt="tea7">
+
+        </div>
+        <!-- Tea Order Form -->
+          <div class="order-form">
+            <h2>Order Your Tea</h2>
+            <form action="submit_order.php" method="POST">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required />
+
+              <label for="tea-type">Select Tea Type:</label>
+              <select id="tea-type" name="tea_type">
+                <option value="herbal">Herbal Tea</option>
+                <option value="mint">Mint Tea</option>
+                <option value="chamomile">Chamomile Tea</option>
+                <!-- I can Add more   -->
+              </select>
+
+              <label for="quantity">Quantity (in packs):</label>
+              <input type="number" id="quantity" name="quantity" min="1" required />
+
+              <label for="comments">Additional Comments (Optional):</label>
+              <textarea id="comments" name="comments" rows="4"></textarea>
+
+              <button type="submit" class="social-button">Submit Order</button>
+            </form>
+          </div>
+
+
+      </main>
+      <footer>
+        <div>
+          <p>Contacts</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/yashina.nastya/" target="_blank"><img src="insta.png" alt="Instagram" /></a>
+            <a href="https://www.linkedin.com/in/nastasia-iashina-68587a265/?locale=en_US&trk=public-profile-join-page" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100008154017024" target="_blank"><img src="facebook.png" alt="Facebook" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,296 @@
+/*  styles */
+body {
+  background-color: #F5F5EB;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* Button styles */
+.social-button {
+  display: block;
+  background-color: #789B88;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.social-button:hover {
+  background-color: #5b7b68;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .two-column div {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-button {
+    width: 100%;
+  }
+}
+
+/* Header */
+header {
+  background-color: #789B88;
+}
+
+header h2 {
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+  font-weight: 400;
+}
+
+/* Navigation bar */
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 0 0 70px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #789B88;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #5b7b68;
+}
+
+/* Footer */
+footer {
+  background-color: #789B88;
+  padding: 40px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer .social-icons img {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* HOME */
+/* Full-page image */
+.full-page-image {
+  position: relative;
+  height: calc(100vh - 120px);
+  background-image: url('filed.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+  padding: 20px;
+  max-width: 50%;
+}
+
+.text-overlay h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.text-overlay p {
+  font-size: 30px;
+}
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #789B88;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+  background-color: #5b7b68;
+}
+
+
+.two-column {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #F5F5EB;
+}
+
+.project-text {
+width: 48vw;
+  background-color: 0;
+  margin-right: 10px;
+}
+
+.three-column {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 80px;
+  background-color: #789B88;
+}
+
+.three-column div {
+  background-color: #fff;
+}
+
+/* ABOUT */
+.flex-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-left {
+  flex-grow: 1;
+}
+
+.flex-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.about {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.flex-left p {
+  margin-bottom: 15px;
+}
+
+.social-button {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+/* PTOJECT */
+.tea{
+  width: 540px;
+  object-fit: cover;
+}
+
+#tea1{
+  width: 43vw;
+}
+.image-grid{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 2rem;
+}
+.order-form {
+  background-color: #F5F5EB;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+  margin-bottom: 20px;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.order-form button {
+  display: inline-block;
+  background-color: #789B88;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.order-form button:hover {
+  background-color: #5b7b68;
+}
+
+
+/* CONTACTS */
+.contact-photo{
+  width: 100%;
+}
+.reel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.reel div {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  max-width: 100%;
