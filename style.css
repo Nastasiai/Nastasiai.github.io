@@ -135,7 +135,7 @@ footer .social-icons img {
 }
 
 .text-overlay h1 {
-  font-size: 100px;
+  font-size: 150px;
   margin: 0;
 }
 
@@ -191,8 +191,10 @@ width: 48vw;
   justify-content: space-between;
 }
 
+
 .flex-left {
   flex-grow: 1;
+  margin: 15px;
 }
 
 .flex-right {
@@ -214,16 +216,34 @@ width: 48vw;
   display: inline-block;
   margin-top: 10px;
 }
-
-
+.about-photo {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+.flex-left h1 {
+  text-align: left;
+  margin: 2 auto;
+  font-size: 7.5rem;
+ font-weight: bold;
+ color: #789B88;
+}
 /* PTOJECT */
 .tea{
   width: 540px;
   object-fit: cover;
 }
-
+.project-text h1{
+  text-align: left;
+  margin:2 auto;
+  font-size: 7.5rem;
+ font-weight: bold;
+ color: #789B88;
+}
 #tea1{
   width: 43vw;
+  margin-top: auto;
 }
 .image-grid{
   display:flex;
@@ -280,6 +300,17 @@ width: 48vw;
 .contact-photo{
   width: 100%;
 }
+.two-contact{
+  text-align: center;
+}
+.two-contact h1{
+  text-align: center;
+  margin: 2 auto;
+  font-size: 7.5rem;
+ font-weight: bold;
+ color: #789B88;
+}
+
 .reel {
   display: flex;
   justify-content: center;
